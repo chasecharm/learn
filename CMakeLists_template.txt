@@ -49,7 +49,7 @@ else ()
 endif ()
 
 include_directories(${includes}
-    UserApp
+    UserApp/Inc
 )
 
 add_definitions(${defines})
